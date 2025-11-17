@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pyenv versions:*)",
+      "Bash(pyenv local:*)",
+      "Bash(pip install:*)",
+      "Bash(brew install:*)",
+      "Bash(pyenv install:*)",
+      "Bash(python:*)",
+      "Bash(/Users/k_sato/.pyenv/versions/3.10.13/bin/python:*)",
+      "Bash(KMP_DUPLICATE_LIB_OK=TRUE /Users/k_sato/.pyenv/versions/3.10.13/bin/python:*)",
+      "Bash(tee:*)",
+      "Bash(cat:*)",
+      "Bash(tree:*)",
+      "Bash(xargs kill:*)",
+      "Bash(export KMP_DUPLICATE_LIB_OK=TRUE)",
+      "Bash(kill:*)",
+      "Bash(./run_search.sh:*)",
+      "Bash(chmod:*)",
+      "Bash(zip:*)",
+      "Bash(output/image_similarity_faiss_report_20251114_112717.html )",
+      "Bash(output/target_images_20251114_111602.html )",
+      "Bash(output/search_images_20251114_111602.html )",
+      "Bash(output/search_log_20251114_112617.log)",
+      "Bash(find:*)",
+      "Bash(unzip:*)",
+      "Bash(./create_share_zip.sh:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,60 @@
+# 出力ディレクトリ
+output/
+
+# Target画像（MDが用意した検索対象画像）
+# ディレクトリは含めるが、配下のファイルは除外
+target/*
+!target/.gitkeep
+
+# ログファイル
+*.log
+
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 仮想環境
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# 認証情報
+credentials.json
+*.json.bak
+
+# HTMLレポート（ルートディレクトリにある古いファイル）
+image_similarity_faiss_report_*.html
+face_recognition_report_*.html
+image_list.html
+target_images.html
+search_images_*.html
+
+# バックアップファイル
+*.bak
+
+# 一時ファイル
+*.tmp
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# PyTorch関連
+*.pth
+*.pt
+
+# ZIPファイル（共有用に作成したもの）
+*.zip
