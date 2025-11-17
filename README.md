@@ -30,7 +30,7 @@ PyTorchのResNet50とFAISSを使用した高速な画像類似度検索を実行
 pyenv install 3.10.13
 
 # このプロジェクトでPython 3.10.13を使用
-cd /path/to/face_recognition
+cd /path/to/image-similarity-search
 pyenv local 3.10.13
 ```
 
@@ -177,7 +177,7 @@ TOP_K = 5  # FAISS検索の候補数
 ## ファイル構成
 
 ```
-face_recognition/
+image-similarity-search/
 ├── image_similarity_faiss.py  # メイン類似度検索スクリプト
 ├── create_image_list.py       # 画像一覧HTML生成スクリプト
 ├── check_similarity.py        # 2画像間の類似度確認ツール
